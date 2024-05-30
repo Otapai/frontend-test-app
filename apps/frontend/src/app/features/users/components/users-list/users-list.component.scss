@@ -1,0 +1,29 @@
+table {
+  background: 0;
+  margin-bottom: 20px;
+  & .tbody-row:hover {
+    background: whitesmoke;
+  }
+}
+
+mat-paginator {
+  background: 0;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.w-40{
+  width: 40px;
+}
+
+form {
+  & mat-form-field {
+    width: 100%;
+  }
+}

@@ -1,0 +1,9 @@
+<mat-progress-bar
+  *ngIf="usersFacade.loading$() | async"
+  mode="indeterminate"
+></mat-progress-bar>
+<mat-toolbar>
+  <h2>{{ id ? 'Редактирование' : 'Создание' }} пользователя</h2>
+</mat-toolbar>
+<app-users [user]="usersFacade.getData$() | async" [edit]="!!id"
+(submitEvent)="onSubmit($event)"></app-users>

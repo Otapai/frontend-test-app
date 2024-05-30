@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": "240a8572-1bda-4c21-9910-804e12ae57a5",
+      "userName": "Ivan C.",
+      "active": true
+    },
+    {
+      "id": "82fc7920-9bd3-4936-8141-51b0dded3335",
+      "userName": "Petr V.",
+      "active": true
+    },
+    {
+      "id": "b7351b6f-b8ac-420d-946c-49e4fc5efced",
+      "userName": "Artyom B.",
+      "active": true
+    },
+    {
+      "id": "20212e97-6c54-40e3-ad23-83beba0b9d7d",
+      "userName": "Gleb N.",
+      "active": true
+    },
+    {
+      "id": "da67a5c0-2b85-4ab8-928b-5ae87b8bbd5d",
+      "userName": "Anton M.",
+      "active": true
+    },
+    {
+      "id": "418131b4-ead2-48d0-b445-ad945a25160b",
+      "userName": "Semyon A.",
+      "active": true
+    },
+    {
+      "id": "7f0790e0-22e2-492b-a856-e07c11e2dbf7",
+      "userName": "Arseniy S.",
+      "active": true
+    },
+    {
+      "id": "3b2db7aa-6ff5-493d-b718-bd447dd92be5",
+      "userName": "Nick D.",
+      "active": true
+    },
+    {
+      "id": "88d4b3ae-0a3f-4ca7-91bb-9aee32c4426c",
+      "userName": "Alex F.",
+      "active": true
+    },
+    {
+      "id": "ae398bba-2d96-488d-85c3-d08eb1b3a176",
+      "userName": "Kirill G.",
+      "active": true
+    },
+    {
+      "id": "de29297f-cc23-4271-b124-2d6d7f1ff6de",
+      "userName": "Stas H.",
+      "active": true
+    },
+    {
+      "id": "d9dd4945-8379-46af-87a4-d1cee7f0061f",
+      "userName": "Yuriy J.",
+      "active": true
+    },
+    {
+      "id": "e3cb6b1b-bf69-423d-bf91-6c38aaa6f7ab",
+      "userName": "Roman K.",
+      "active": true
+    },
+    {
+      "id": "a61f9093-3823-0ed0-efbd-57ffa1bbc108",
+      "userName": "Petrov I.",
+      "active": true
+    },
+    {
+      "id": "bac24234-c697-f45f-cee9-e0ffdebc8185",
+      "userName": "Vasiliev D.",
+      "active": true
+    }
+  ]
+}

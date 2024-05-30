@@ -1,0 +1,12 @@
+<form [formGroup]="form">
+  <mat-form-field appearance="outline">
+    <mat-label>Имя пользователя</mat-label>
+    <input matInput type="text" formControlName="userName" />
+  </mat-form-field>
+  <mat-checkbox formControlName="active">Включен</mat-checkbox>
+</form>
+
+<mat-toolbar>
+  <button mat-flat-button (click)="onSubmit()">{{ edit ? 'Редактировать' : 'Создать' }}</button>
+  <button mat-stroked-button (click)="onBack()">Отмена</button>
+</mat-toolbar>

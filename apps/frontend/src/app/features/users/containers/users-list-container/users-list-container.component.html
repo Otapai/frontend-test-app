@@ -1,0 +1,15 @@
+<mat-progress-bar
+  *ngIf="usersListFacade.loading$() | async"
+  mode="indeterminate"
+></mat-progress-bar>
+<mat-toolbar>
+  <h2>Список пользователей</h2>
+  <div class="spacer"></div>
+  <button mat-stroked-button [routerLink]="['', 'users', 'create']">Создать</button>
+</mat-toolbar>
+<app-users-list
+  [usersList]="usersListFacade.getData$() | async"
+  (filter)="onFilter($event)"
+  (active)="onActive($event)"
+  (delete)="onDelete($event)"
+></app-users-list>
